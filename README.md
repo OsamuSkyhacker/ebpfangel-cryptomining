@@ -20,6 +20,13 @@ machine learning.
 
 ---
 
+## Overview / Architecture
+
+![System architecture of ebpfangel-cryptomining](docs/assets/my-system-arch.png)
+
+---
+
+
 ## 1. Based on: ebpfangel
 
 The original project **ebpfangel** was developed by  
