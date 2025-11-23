@@ -8,9 +8,8 @@
 
 ---
 
-# ebpfangel-cryptomining: eBPF-based Cryptomining Detection (fork of ebpfangel)
+# ebpfangel-cryptomining: eBPF-based Cryptomining Detection
 
-This repository is a **course project** for _NIS4344 Computer Virus Principles & Practice_ at SJTU.
 It extends the original [ebpfangel](https://github.com/TomasPhilippart/ebpfangel) ransomware
 detection system to detect **cryptomining / cryptojacking processes** on Linux using eBPF and
 machine learning.
