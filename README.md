@@ -20,6 +20,13 @@ machine learning.
 
 ---
 
+## Overview / Architecture
+
+![System architecture of ebpfangel-cryptomining](docs/assets/my-system-arch.jpg)
+
+---
+
+
 
 ## 1. Based on: ebpfangel
 
@@ -98,8 +105,6 @@ User Space:
       -> rank_suspicious_pids.py -> Suspicious PID list / Alerts
 ````
 
-![System architecture of ebpfangel-cryptomining](docs/assets/my-system-arch.jpg)
-
 ---
 
 ## 4. Quick start (for this fork)
@@ -109,8 +114,8 @@ User Space:
 1. Clone this fork and prepare the Python environment:
 
    ```bash
-   git clone git@github.com:<YourUserName>/ebpfangel-miner.git
-   cd ebpfangel-miner
+   git clone git@github.com:OsamuSkyhacker/ebpfangel-cryptomining.git
+   cd ebpfangel-cryptomining
    python3 -m venv --system-site-packages venv
    source venv/bin/activate
    pip install -r requirements.txt  # or: pip install pandas scikit-learn matplotlib joblib
