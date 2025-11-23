@@ -20,12 +20,6 @@ machine learning.
 
 ---
 
-## Overview / Architecture
-
-![System architecture of ebpfangel-cryptomining](docs/assets/my-system-arch.jpg)
-
----
-
 
 ## 1. Based on: ebpfangel
 
@@ -104,7 +98,7 @@ User Space:
       -> rank_suspicious_pids.py -> Suspicious PID list / Alerts
 ````
 
-See `docs/` or `figs/my-system-arch.png` for a graphical overview.
+![System architecture of ebpfangel-cryptomining](docs/assets/my-system-arch.jpg)
 
 ---
 
